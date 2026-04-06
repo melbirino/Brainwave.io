@@ -40,6 +40,8 @@
 
 body {
     background-color: #F4F7FA;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -135,6 +137,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .banner-left {
@@ -149,12 +152,14 @@ body {
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .banner__text {
     font-family: 'Gilroy-Regular';
     font-size: 19px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .banner__button {
@@ -165,6 +170,7 @@ body {
     color: #68D585;
     height: 32px;
     gap: 8px;
+    cursor: pointer;
 }
 
 .banner__button img {
@@ -206,7 +212,6 @@ body {
 
 .content {
     width: 100%;
-    height: 2179px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,30 +251,179 @@ body {
     font-family: 'Gilroy-Bold';
     font-size: 21px;
     color: #161C2D;
+    margin: 0;
 }
 
 .features__text {
     font-family: 'Gilroy-Regular';
     font-size: 17px;
     color: #161C2D;
+    margin: 0;
 }
 
 .content_one {
     width: 1102px;
-    height: 424px;
     margin-top: 132px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one__info {
+    width: 410px;
+    margin-top: 84px;
+    margin-bottom: 60px;
+}
+
+.one__titel {
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    color: #161C2D;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.one__text {
+    font-family: 'Gilroy-Regular';
+    font-size: 19px;
+    color: #161C2D;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.one__button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.one__button p {
+    font-family: 'Gilroy-Bold';
+    font-size: 21px;
+    color: #473BF0;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.one__button img {
+    width: 13px;
+    height: 11.27px;
 }
 
 .content_two {
-    width: 1110px;
-    height: 468px;
+    width: 1102px;
     margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.two__info {
+    width: 410px;
+    margin-top: 84px;
+    margin-bottom: 60px;
+    order: 1;
+}
+
+.two__titel {
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    color: #161C2D;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.two__text {
+    font-family: 'Gilroy-Regular';
+    font-size: 19px;
+    color: #161C2D;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.two__info .one__button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.two__info .one__button p {
+    font-family: 'Gilroy-Bold';
+    font-size: 21px;
+    color: #473BF0;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.two__info .one__button img {
+    width: 13px;
+    height: 11.27px;
+}
+
+.content_two img {
+    max-width: 100%;
+    height: auto;
+    order: 2;
 }
 
 .content_three {
-    width: 1011px;
-    height: 511px;
+    width: 1102px;
     margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.three__info {
+    width: 410px;
+    margin-top: 84px;
+    margin-bottom: 60px;
+}
+
+.three__titel {
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    color: #161C2D;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.three__text {
+    font-family: 'Gilroy-Regular';
+    font-size: 19px;
+    color: #161C2D;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.three__button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.three__button p {
+    font-family: 'Gilroy-Bold';
+    font-size: 21px;
+    color: #473BF0;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.three__button img {
+    width: 13px;
+    height: 11.27px;
+}
+
+.content_three img {
+    max-width: 100%;
+    height: auto;
 }
 
 .pricing {
