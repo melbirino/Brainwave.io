@@ -90,7 +90,6 @@ body {
     color: #FFFFFF;
     font-size: 15px;
     cursor: pointer;
-    transition: opacity 0.3s ease;
 }
 
 .button {
@@ -145,7 +144,7 @@ body {
     gap: 30px;
 }
 
-.banner__titel {
+.banner__title {
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     color: #FFFFFF;
@@ -222,13 +221,13 @@ body {
     margin-top: 89px;
 }
 
-.features-blok {
+.features-block {
     width: 346px;
     display: flex;
     gap: 26px;
 }
 
-.features-blok img {
+.features-block img {
     width: 35px;
     height: 36px;
     margin-top: 9px;
@@ -240,7 +239,7 @@ body {
     gap: 15px;
 }
 
-.features__titel {
+.features__title {
     font-family: 'Gilroy-Bold';
     font-size: 21px;
     color: #161C2D;
@@ -268,7 +267,7 @@ body {
     margin-bottom: 60px;
 }
 
-.one__titel {
+.one__title {
     font-family: 'Gilroy-Bold';
     font-size: 36px;
     color: #161C2D;
@@ -289,6 +288,7 @@ body {
     align-items: center;
     gap: 30px;
     margin-top: 35px;
+    cursor: pointer;
 }
 
 .one__button p {
@@ -297,13 +297,11 @@ body {
     color: #473BF0;
     margin: 0;
     line-height: 1;
-    cursor: pointer;
 }
 
 .one__button img {
     width: 13px;
     height: 11.27px;
-    cursor: pointer;
 }
 
 .content_two {
@@ -322,7 +320,7 @@ body {
     order: 1;
 }
 
-.two__titel {
+.two__title {
     font-family: 'Gilroy-Bold';
     font-size: 36px;
     color: #161C2D;
@@ -338,26 +336,25 @@ body {
     margin-bottom: 0;
 }
 
-.two__info .one__button {
+.two__button {
     display: flex;
     align-items: center;
     gap: 30px;
     margin-top: 35px;
+    cursor: pointer;
 }
 
-.two__info .one__button p {
+.two__button p {
     font-family: 'Gilroy-Bold';
     font-size: 21px;
     color: #473BF0;
     margin: 0;
     line-height: 1;
-    cursor: pointer;
 }
 
-.two__info .one__button img {
+.two__button img {
     width: 13px;
     height: 11.27px;
-    cursor: pointer;
 }
 
 .content_two img {
@@ -381,7 +378,7 @@ body {
     margin-bottom: 60px;
 }
 
-.three__titel {
+.three__title {
     font-family: 'Gilroy-Bold';
     font-size: 36px;
     color: #161C2D;
@@ -402,6 +399,7 @@ body {
     align-items: center;
     gap: 30px;
     margin-top: 35px;
+    cursor: pointer;
 }
 
 .three__button p {
@@ -410,13 +408,11 @@ body {
     color: #473BF0;
     margin: 0;
     line-height: 1;
-    cursor: pointer;
 }
 
 .three__button img {
     width: 13px;
     height: 11.27px;
-    cursor: pointer;
 }
 
 .content_three img {
@@ -441,7 +437,7 @@ body {
     gap: 17px;
 }
 
-.pricing__titel {
+.pricing__title {
     font-family: 'Gilroy-Bold';
     font-size: 36px;
     color: #161C2D;
@@ -480,7 +476,7 @@ body {
 }
 
 .pricing-cards {
-    width: 1109px;
+    width: 1111px;
     display: flex;
     justify-content: center;
     gap: 31px;
@@ -494,6 +490,59 @@ body {
     background: #FFFFFF;
     border-radius: 10px;
     padding: 37px 49px 38px 49px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    height: 16px;
+}
+
+.card-title p {
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    color: #473BF0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.reviews {
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    gap: 69px;
+    margin-top: 107px;
+    margin-bottom: 117px;
+}
+
+.reviews-card {
+    width: 502px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.quotation__mark {
+    width: 32px;
+    height: 24px;
+}
+
+.reviews-card p {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    color: #161C2D;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Стили для изображений с именами в отзывах */
+.reviews-card>img:not(.quotation__mark) {
+    width: 120px;
+    height: auto;
+    margin-top: 8px;
+    align-self: flex-start;
 }
 
 .footer {
@@ -501,10 +550,83 @@ body {
     background-color: #161C2D;
     height: 565px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .footer-content {
     width: 1111px;
+    height: 246px;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    margin-top: 121px;
+    margin-bottom: 108px;
+}
+
+.footer-blok {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blok-title {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.blok-text {
+    font-family: 'Gilroy-Regular';
+    font-size: 17px;
+    color: #FFFFFF;
+    margin: 0;
+    cursor: pointer;
+}
+
+.footer-line {
+    width: 1111px;
+    height: 2px;
+    background-color: #292F41;
+}
+
+.footer-basement {
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.basement-copyright {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.basement-copyright p {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.basement-copyright img {
+    width: 16px;
+    height: 16px;
+}
+
+.basement-sn {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.basement-sn img {
+    width: 17px;
+    height: 15px;
+    cursor: pointer;
 }
