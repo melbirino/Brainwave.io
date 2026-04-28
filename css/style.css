@@ -508,6 +508,83 @@ body {
     margin-bottom: 40px;
 }
 
+.price {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    align-self: flex-start;
+}
+
+.price p {
+    font-family: 'Rubik-Regular';
+    font-size: 17px;
+    color: #161C2D;
+    margin: 0;
+    line-height: 1;
+    align-self: flex-end;
+}
+
+.billing-text {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    color: #161C2D;
+    text-align: left;
+    margin: 11px 0 38px;
+    align-self: flex-start;
+}
+
+.options {
+    display: block;
+    margin: 0 0 0 0;
+    align-self: flex-start;
+}
+
+.trial-button {
+    width: 205px;
+    height: 59px;
+    background-color: #E7E9ED;
+    background-image: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    cursor: pointer;
+    margin: 31px 0 12px 0;
+    align-self: flex-start;
+}
+
+.trial-button span {
+    font-family: 'Gilroy-Bold';
+    font-size: 17px;
+    color: #473BF0;
+    white-space: nowrap;
+}
+
+.pricing-card:nth-child(2) .trial-button {
+    background-color: #473BF0;
+}
+
+.pricing-card:nth-child(2) .trial-button span {
+    color: #FFFFFF;
+}
+
+.trial-button img {
+    width: 13px;
+    height: 11.27px;
+}
+
+.pricing-card>p:last-child {
+    font-family: 'Gilroy-Regular';
+    font-size: 14px;
+    color: #161C2D;
+    text-align: left;
+    margin: 0;
+    opacity: 0.7;
+    align-self: flex-start;
+}
+
 .reviews {
     width: 1111px;
     display: flex;
@@ -537,7 +614,6 @@ body {
     line-height: 1.4;
 }
 
-/* Стили для изображений с именами в отзывах */
 .reviews-card>img:not(.quotation__mark) {
     width: 120px;
     height: auto;
